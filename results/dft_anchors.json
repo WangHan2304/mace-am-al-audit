@@ -1,0 +1,48 @@
+{
+  "anchors": {
+    "Al_fcc": {
+      "formation_eV_per_atom": 0.0,
+      "source": "元素参考态",
+      "kind": "REF"
+    },
+    "Al3Sc_L12": {
+      "formation_eV_per_atom": -0.443,
+      "source": "PMC6539934 PBE 第一性原理",
+      "kind": "LIT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6539934/"
+    },
+    "Al3Zr_L12": {
+      "formation_eV_per_atom": -0.532,
+      "source": "PMC5951520 PBE 第一性原理",
+      "kind": "LIT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5951520/"
+    },
+    "Al2Cu_theta": {
+      "formation_eV_per_atom": -0.166,
+      "source": "Materials Project mp-998 (GGA-PBE)",
+      "kind": "MP",
+      "url": "https://legacy.materialsproject.org/materials/mp-998/"
+    },
+    "Mg2Si": {
+      "formation_eV_per_atom": -0.155,
+      "source": "Materials Project mp-1367 (GGA-PBE)",
+      "kind": "MP",
+      "url": "https://legacy.materialsproject.org/materials/mp-1367/"
+    },
+    "Mg2Si_exp": {
+      "formation_eV_per_atom_min": -0.31,
+      "formation_eV_per_atom_max": -0.22,
+      "source": "实验量热区间（文献汇总, arXiv 1309.7246）",
+      "kind": "EXP",
+      "url": "https://arxiv.org/pdf/1309.7246v1"
+    },
+    "Al3ScZr_L12_note": {
+      "note": "Al24Sc6Zr2 (Zr 6.25 at%) ΔHf=-0.456 eV/atom 可作定性对照",
+      "source": "PMC6539934",
+      "kind": "LIT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6539934/"
+    }
+  },
+  "local": {},
+  "notes": "kind 分级：MP=Materials Project GGA-PBE 公开值；LIT=同行评议文献；EXP=实验；LOCAL=工作站 DFT 自算待填。"
+}

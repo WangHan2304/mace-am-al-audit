@@ -1,0 +1,206 @@
+{
+  "phase": "校正边界理论：多金属可迁移性相图",
+  "metals": {
+    "Al": {
+      "a": 4.05,
+      "dft_eps_meV": 31.5,
+      "dft_isf_mJ": 163,
+      "small": {
+        "eps_mace_meV": -1.7,
+        "gamma_isf_raw": -3.9,
+        "penalty_dft_eps": 142.1,
+        "gamma_isf_corrected": 138.3,
+        "area_A2": 7.1
+      },
+      "medium": {
+        "eps_mace_meV": 0.39,
+        "gamma_isf_raw": 0.8,
+        "penalty_dft_eps": 142.1,
+        "gamma_isf_corrected": 143.0,
+        "area_A2": 7.1
+      },
+      "disrupted_atoms": 11,
+      "n_neighbors_at_ISF": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "large": {
+        "eps_mace_meV": -0.55,
+        "gamma_isf_raw": -1.2,
+        "penalty_dft_eps": 142.1,
+        "gamma_isf_corrected": 140.9,
+        "area_A2": 7.1
+      }
+    },
+    "Cu": {
+      "a": 3.615,
+      "dft_eps_meV": 35.0,
+      "dft_isf_mJ": 45,
+      "small": {
+        "eps_mace_meV": 2.72,
+        "gamma_isf_raw": 7.7,
+        "penalty_dft_eps": 198.2,
+        "gamma_isf_corrected": 205.9,
+        "area_A2": 5.66
+      },
+      "medium": {
+        "eps_mace_meV": 1.95,
+        "gamma_isf_raw": 5.6,
+        "penalty_dft_eps": 198.2,
+        "gamma_isf_corrected": 203.7,
+        "area_A2": 5.66
+      },
+      "disrupted_atoms": 11,
+      "n_neighbors_at_ISF": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "large": {
+        "eps_mace_meV": 3.19,
+        "gamma_isf_raw": 9.0,
+        "penalty_dft_eps": 198.2,
+        "gamma_isf_corrected": 207.1,
+        "area_A2": 5.66
+      }
+    },
+    "Ni": {
+      "a": 3.524,
+      "dft_eps_meV": 50.0,
+      "dft_isf_mJ": 125,
+      "small": {
+        "eps_mace_meV": -1.02,
+        "gamma_isf_raw": -2.8,
+        "penalty_dft_eps": 297.9,
+        "gamma_isf_corrected": 295.1,
+        "area_A2": 5.38
+      },
+      "medium": {
+        "eps_mace_meV": 2.01,
+        "gamma_isf_raw": 6.0,
+        "penalty_dft_eps": 297.9,
+        "gamma_isf_corrected": 303.9,
+        "area_A2": 5.38
+      },
+      "disrupted_atoms": 11,
+      "n_neighbors_at_ISF": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "large": {
+        "eps_mace_meV": 2.06,
+        "gamma_isf_raw": 6.5,
+        "penalty_dft_eps": 297.9,
+        "gamma_isf_corrected": 304.5,
+        "area_A2": 5.38
+      }
+    },
+    "Ag": {
+      "a": 4.09,
+      "dft_eps_meV": 12.0,
+      "dft_isf_mJ": 20,
+      "small": {
+        "eps_mace_meV": -0.02,
+        "gamma_isf_raw": -0.1,
+        "penalty_dft_eps": 53.1,
+        "gamma_isf_corrected": 53.0,
+        "area_A2": 7.24
+      },
+      "medium": {
+        "eps_mace_meV": 2.59,
+        "gamma_isf_raw": 5.7,
+        "penalty_dft_eps": 53.1,
+        "gamma_isf_corrected": 58.8,
+        "area_A2": 7.24
+      },
+      "disrupted_atoms": 11,
+      "n_neighbors_at_ISF": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "large": {
+        "eps_mace_meV": 1.01,
+        "gamma_isf_raw": 2.2,
+        "penalty_dft_eps": 53.1,
+        "gamma_isf_corrected": 55.3,
+        "area_A2": 7.24
+      }
+    },
+    "Au": {
+      "a": 4.078,
+      "dft_eps_meV": 35.0,
+      "dft_isf_mJ": 45,
+      "small": {
+        "eps_mace_meV": 17.9,
+        "gamma_isf_raw": 39.9,
+        "penalty_dft_eps": 155.7,
+        "gamma_isf_corrected": 195.7,
+        "area_A2": 7.2
+      },
+      "medium": {
+        "eps_mace_meV": 9.37,
+        "gamma_isf_raw": 20.8,
+        "penalty_dft_eps": 155.7,
+        "gamma_isf_corrected": 176.6,
+        "area_A2": 7.2
+      },
+      "disrupted_atoms": 11,
+      "n_neighbors_at_ISF": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "large": {
+        "eps_mace_meV": 7.09,
+        "gamma_isf_raw": 15.8,
+        "penalty_dft_eps": 155.7,
+        "gamma_isf_corrected": 171.5,
+        "area_A2": 7.2
+      }
+    }
+  },
+  "note": "DFT ε 和 DFT ISF 为文献参考值；MACE ε 和 raw ISF 为本次计算"
+}

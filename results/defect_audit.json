@@ -1,0 +1,107 @@
+{
+  "rows": [
+    {
+      "type": "isf_usf",
+      "model": "MACE-MP-0 small",
+      "gamma_isf_mJ_m2": -7.274252082508447,
+      "gamma_usf_mJ_m2": 62.25013103525995,
+      "E_perfect_eV": -44.51483256663142,
+      "E_isf_eV": -40.80868993493215,
+      "E_usf_eV": -44.45964127545194,
+      "relax_steps": [
+        0,
+        0,
+        22
+      ]
+    },
+    {
+      "type": "isf_usf",
+      "model": "MACE-MP-0 medium",
+      "gamma_isf_mJ_m2": 6.573026029048031,
+      "gamma_usf_mJ_m2": 69.03143236110779,
+      "E_perfect_eV": -44.738838057594435,
+      "E_isf_eV": -41.00985024891429,
+      "E_usf_eV": -44.67763442925476,
+      "relax_steps": [
+        0,
+        0,
+        20
+      ]
+    },
+    {
+      "type": "isf_usf",
+      "model": "MACE-MP-0 large",
+      "gamma_isf_mJ_m2": 9.323603162228585,
+      "gamma_usf_mJ_m2": 47.08627314719598,
+      "E_perfect_eV": -44.54232289874342,
+      "E_isf_eV": -40.83155444975944,
+      "E_usf_eV": -44.50057596313695,
+      "relax_steps": [
+        0,
+        0,
+        22
+      ]
+    },
+    {
+      "type": "interface_100",
+      "model": "MACE-MP-0 small",
+      "gamma_mJ_m2": 98.99262807237405,
+      "E_slab_eV": -122.3092947931057,
+      "E_ref_eV": -122.51464604242943,
+      "relax_steps": 6
+    },
+    {
+      "type": "interface_100",
+      "model": "MACE-MP-0 medium",
+      "gamma_mJ_m2": 75.6443163758195,
+      "E_slab_eV": -122.60922797168291,
+      "E_ref_eV": -122.7661452611265,
+      "relax_steps": 4
+    },
+    {
+      "type": "interface_100",
+      "model": "MACE-MP-0 large",
+      "gamma_mJ_m2": -10.510088011283065,
+      "E_slab_eV": -122.41934792502221,
+      "E_ref_eV": -122.3975456984762,
+      "relax_steps": 5
+    }
+  ],
+  "anchors": {
+    "Al_ISF_DFT": {
+      "mJ_m2": 164,
+      "range_mJ_m2": [
+        161,
+        166
+      ],
+      "source": "DFT (cond-mat/9903440, Sun&Kaxiras 1997, Wright 1992)"
+    },
+    "Al_ISF_exp": {
+      "mJ_m2": 163,
+      "range_mJ_m2": [
+        110,
+        280
+      ],
+      "source": "实验估计/区间 (OSTI; arXiv)"
+    },
+    "Al_USF_DFT": {
+      "mJ_m2": 224,
+      "source": "DFT (cond-mat/9903440)"
+    },
+    "Al3Sc_Al_100_DFT": {
+      "mJ_m2": 192,
+      "source": "DFT Asta PRB (dunand.northwestern.edu)"
+    },
+    "Al3Sc_Al_100_EAM": {
+      "mJ_m2": 32.5,
+      "source": "EAM 1998 (对照，势族差异)"
+    }
+  },
+  "device": "cuda",
+  "definitions": [
+    "gamma = dE/A (A 为界面面积, m2)",
+    "ISF: 12层(111) 面内1x1原胞, 层移除法(移除中面层)→恰 1 个 ISF",
+    "USF: 上半晶体平移 T_STEP/2, 中/边界 2 个等效 USF, /2A",
+    "interface: coherent (001)≡(100), a_avg=4.0765A, 混合层(含Sc)终止, Al块首层偏移型注册, 周期叠双界面 /2A, 原子位置轻弛豫(fmax=0.05)"
+  ]
+}

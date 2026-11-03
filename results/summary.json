@@ -1,0 +1,251 @@
+{
+  "formation_eV_per_atom_asis": {
+    "Al3Sc_L12": {
+      "MACE-MP-0 small": -0.47172474630559336,
+      "MACE-MP-0 medium": -0.4484971314752144,
+      "MACE-MP-0 large": -0.4565440890335726
+    },
+    "Al3Zr_L12": {
+      "MACE-MP-0 small": -0.5629100763708443,
+      "MACE-MP-0 medium": -0.5318409358859615,
+      "MACE-MP-0 large": -0.5423478768146834
+    },
+    "Al3ScZr_L12": {
+      "MACE-MP-0 small": -0.5204287727618926,
+      "MACE-MP-0 medium": -0.49867841558434467,
+      "MACE-MP-0 large": -0.5076330672479656
+    },
+    "Al2Cu_theta": {
+      "MACE-MP-0 small": -0.07081281657399015,
+      "MACE-MP-0 medium": -0.054576652651528924,
+      "MACE-MP-0 large": -0.04635918110746692
+    },
+    "Al2Cu_theta_prime": {
+      "MACE-MP-0 small": -0.20728911164295974,
+      "MACE-MP-0 medium": -0.2091149250694239,
+      "MACE-MP-0 large": -0.19982261875657592
+    },
+    "Mg2Si": {
+      "MACE-MP-0 small": -0.0822295842226642,
+      "MACE-MP-0 medium": -0.06052103713851468,
+      "MACE-MP-0 large": -0.06165907096342534
+    }
+  },
+  "substitution_eV_asis": {
+    "Mg": {
+      "MACE-MP-0 small": 0.0778763324084415,
+      "MACE-MP-0 medium": 0.0938546291749367,
+      "MACE-MP-0 large": 0.07758758605335991
+    },
+    "Si": {
+      "MACE-MP-0 small": 0.4073038713576027,
+      "MACE-MP-0 medium": 0.32639418736531134,
+      "MACE-MP-0 large": 0.30680201086914494
+    },
+    "Cu": {
+      "MACE-MP-0 small": 0.10320138589374928,
+      "MACE-MP-0 medium": 0.0180207958169305,
+      "MACE-MP-0 large": 0.025320485876359378
+    },
+    "Sc": {
+      "MACE-MP-0 small": -1.6300611832427547,
+      "MACE-MP-0 medium": -1.6401012364606826,
+      "MACE-MP-0 large": -1.679961405307142
+    },
+    "Zr": {
+      "MACE-MP-0 small": -2.0260459739116072,
+      "MACE-MP-0 medium": -2.0382971530943568,
+      "MACE-MP-0 large": -2.0881955608478027
+    }
+  },
+  "elastic_GPa_asis": {
+    "Al_fcc": {
+      "MACE-MP-0 small": {
+        "C11": 104.70727517218285,
+        "C12": 68.12457497425198,
+        "C44": 22.019083259095705
+      },
+      "MACE-MP-0 medium": {
+        "C11": 87.9706486811651,
+        "C12": 54.787043433856745,
+        "C44": 26.44913331973681
+      },
+      "MACE-MP-0 large": {
+        "C11": 70.7775614130074,
+        "C12": 49.31893273369585,
+        "C44": 15.225284187181805
+      }
+    },
+    "Al3Sc_L12": {
+      "MACE-MP-0 small": {
+        "C11": 121.53574621707136,
+        "C12": 71.53141323200032,
+        "C44": 49.74106719825555
+      },
+      "MACE-MP-0 medium": {
+        "C11": 116.4726248777906,
+        "C12": 74.4682895620599,
+        "C44": 40.71874210205103
+      },
+      "MACE-MP-0 large": {
+        "C11": 117.1106044719549,
+        "C12": 68.67152024581891,
+        "C44": 46.441262221340565
+      }
+    },
+    "Al3Zr_L12": {
+      "MACE-MP-0 small": {
+        "C11": 145.6006752583489,
+        "C12": 102.59116402561834,
+        "C44": 52.17584404761069
+      },
+      "MACE-MP-0 medium": {
+        "C11": 136.77313490429242,
+        "C12": 103.22857669308199,
+        "C44": 46.38191578934778
+      },
+      "MACE-MP-0 large": {
+        "C11": 142.36309629543067,
+        "C12": 88.47530265266356,
+        "C44": 52.97324259302375
+      }
+    },
+    "Mg2Si": {
+      "MACE-MP-0 small": {
+        "C11": 92.20645568175286,
+        "C12": 50.988829507114865,
+        "C44": 31.415708892200424
+      },
+      "MACE-MP-0 medium": {
+        "C11": 76.8693242878229,
+        "C12": 38.04191398517078,
+        "C44": 23.22886431201987
+      },
+      "MACE-MP-0 large": {
+        "C11": 80.88724785136594,
+        "C12": 36.22981780815791,
+        "C44": 25.973477494509574
+      }
+    },
+    "Si_dia": {
+      "MACE-MP-0 small": {
+        "C11": 100.947046783877,
+        "C12": 64.92552329261244,
+        "C44": 53.87141336481129
+      },
+      "MACE-MP-0 medium": {
+        "C11": 107.95241744688673,
+        "C12": 66.63918232517516,
+        "C44": 54.98924060906156
+      },
+      "MACE-MP-0 large": {
+        "C11": 86.80390598099396,
+        "C12": 55.79680178829526,
+        "C44": 54.28846249810019
+      }
+    }
+  },
+  "anchors": {
+    "Al_fcc": {
+      "formation_eV_per_atom": 0.0,
+      "source": "元素参考态",
+      "kind": "REF"
+    },
+    "Al3Sc_L12": {
+      "formation_eV_per_atom": -0.443,
+      "source": "PMC6539934 PBE 第一性原理",
+      "kind": "LIT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6539934/"
+    },
+    "Al3Zr_L12": {
+      "formation_eV_per_atom": -0.532,
+      "source": "PMC5951520 PBE 第一性原理",
+      "kind": "LIT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5951520/"
+    },
+    "Al2Cu_theta": {
+      "formation_eV_per_atom": -0.166,
+      "source": "Materials Project mp-998 (GGA-PBE)",
+      "kind": "MP",
+      "url": "https://legacy.materialsproject.org/materials/mp-998/"
+    },
+    "Mg2Si": {
+      "formation_eV_per_atom": -0.155,
+      "source": "Materials Project mp-1367 (GGA-PBE)",
+      "kind": "MP",
+      "url": "https://legacy.materialsproject.org/materials/mp-1367/"
+    },
+    "Mg2Si_exp": {
+      "formation_eV_per_atom_min": -0.31,
+      "formation_eV_per_atom_max": -0.22,
+      "source": "实验量热区间（文献汇总, arXiv 1309.7246）",
+      "kind": "EXP",
+      "url": "https://arxiv.org/pdf/1309.7246v1"
+    },
+    "Al3ScZr_L12_note": {
+      "note": "Al24Sc6Zr2 (Zr 6.25 at%) ΔHf=-0.456 eV/atom 可作定性对照",
+      "source": "PMC6539934",
+      "kind": "LIT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6539934/"
+    }
+  },
+  "formation_eV_per_atom_relaxed": {
+    "Al3Sc_L12": {
+      "MACE-MP-0 small": -0.4708811359264278,
+      "MACE-MP-0 medium": -0.449160856987624,
+      "MACE-MP-0 large": -0.45519473973250957
+    },
+    "Al3Zr_L12": {
+      "MACE-MP-0 small": -0.564764677681449,
+      "MACE-MP-0 medium": -0.5333697627607918,
+      "MACE-MP-0 large": -0.5405944115217745
+    },
+    "Al3ScZr_L12": {
+      "MACE-MP-0 small": -0.5207338836213724,
+      "MACE-MP-0 medium": -0.49849085081584565,
+      "MACE-MP-0 large": -0.5060126113807719
+    },
+    "Al2Cu_theta": {
+      "MACE-MP-0 small": -0.07119277636155807,
+      "MACE-MP-0 medium": -0.05683880371796649,
+      "MACE-MP-0 large": -0.05039522785508529
+    },
+    "Al2Cu_theta_prime": {
+      "MACE-MP-0 small": -0.21433211709075076,
+      "MACE-MP-0 medium": -0.21209413529450494,
+      "MACE-MP-0 large": -0.2038167683378577
+    },
+    "Mg2Si": {
+      "MACE-MP-0 small": -0.08126754531658757,
+      "MACE-MP-0 medium": -0.06079321702273847,
+      "MACE-MP-0 large": -0.06143040718319407
+    }
+  },
+  "substitution_eV_relaxed": {
+    "Mg": {
+      "MACE-MP-0 small": 0.013073579912775912,
+      "MACE-MP-0 medium": 0.0031789831416548786,
+      "MACE-MP-0 large": 0.01871412657546112
+    },
+    "Si": {
+      "MACE-MP-0 small": 0.4085060759663435,
+      "MACE-MP-0 medium": 0.3312473791749344,
+      "MACE-MP-0 large": 0.29002954016813476
+    },
+    "Cu": {
+      "MACE-MP-0 small": 0.059170474763190484,
+      "MACE-MP-0 medium": -0.002839491401491756,
+      "MACE-MP-0 large": -0.03330160437628393
+    },
+    "Sc": {
+      "MACE-MP-0 small": -1.6637379725871684,
+      "MACE-MP-0 medium": -1.6929604461586907,
+      "MACE-MP-0 large": -1.700071176045709
+    },
+    "Zr": {
+      "MACE-MP-0 small": -2.06923516660547,
+      "MACE-MP-0 medium": -2.07855235309232,
+      "MACE-MP-0 large": -2.095866771745545
+    }
+  }
+}

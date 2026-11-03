@@ -1,0 +1,46 @@
+{
+  "phase": "3 USF 弛豫协议对照实验",
+  "hypothesis": "坍缩 = 上半块横向滑回完美堆垛（堆垛序对 MACE 无能量代价）",
+  "protocols": [
+    "none: 单点刚性位移, 期望≈DFT 224 (峰对)",
+    "zonly: FixXY 冻结面内 x,y, 仅垂直弛豫 → 若峰保留则证明横向滑动是坍缩主因",
+    "full: 全位置弛豫 → 若坍缩则横向滑回"
+  ],
+  "anchor_USF_DFT_mJ_m2": 224.0,
+  "construction": "12层(111) 1x1原胞, 上半平移 T_STEP/2, 双等效层错 /2A, BFGS fmax=0.05, 胞固定; CPU(float64)",
+  "rows": [
+    {
+      "model": "MACE-MP-0 small",
+      "gamma_none_mJ_m2": 225.58439109181663,
+      "gamma_zonly_mJ_m2": 167.6144502734587,
+      "zonly_steps": 10,
+      "slide_xy_zonly_A": 0.0,
+      "gamma_full_mJ_m2": 62.25013103525995,
+      "full_steps": 22,
+      "slide_xy_full_A": 0.07081192634965018,
+      "slide_expected_T_half_A": 0.8267027881893225
+    },
+    {
+      "model": "MACE-MP-0 medium",
+      "gamma_none_mJ_m2": 243.77553039364824,
+      "gamma_zonly_mJ_m2": 190.3521163079594,
+      "zonly_steps": 11,
+      "slide_xy_zonly_A": 0.0,
+      "gamma_full_mJ_m2": 69.03143236109175,
+      "full_steps": 20,
+      "slide_xy_full_A": 0.08290063998740686,
+      "slide_expected_T_half_A": 0.8267027881893225
+    },
+    {
+      "model": "MACE-MP-0 large",
+      "gamma_none_mJ_m2": 185.27002069235812,
+      "gamma_zonly_mJ_m2": 142.66827552364825,
+      "zonly_steps": 7,
+      "slide_xy_zonly_A": 0.0,
+      "gamma_full_mJ_m2": 47.08627314718797,
+      "full_steps": 22,
+      "slide_xy_full_A": 0.07536822046433085,
+      "slide_expected_T_half_A": 0.8267027881893225
+    }
+  ]
+}

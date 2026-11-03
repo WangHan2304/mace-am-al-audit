@@ -1,0 +1,88 @@
+{
+  "phase": "P1.2 ISF 惩罚泛化验证",
+  "cu_hcp_fcc": {
+    "MACE-MP-0 small": 2.724191974951218,
+    "MACE-MP-0 medium": 1.946198644253272,
+    "MACE-MP-0 large": 3.191410127578287
+  },
+  "cu_dft_hcp_fcc_meV_atom": 35.0,
+  "cu_isf": {
+    "MACE-MP-0 small": {
+      "nn_A": 2.556,
+      "area_A2": 5.66,
+      "gamma_isf_raw_mJ_m2": -10.2,
+      "epsilon_cu_MACE_meV_atom": 2.72,
+      "epsilon_cu_DFT_meV_atom": 35.0,
+      "penalty_mJ_m2": 198.2,
+      "gamma_isf_corrected_mJ_m2": 188.0
+    },
+    "MACE-MP-0 medium": {
+      "nn_A": 2.556,
+      "area_A2": 5.66,
+      "gamma_isf_raw_mJ_m2": -29.9,
+      "epsilon_cu_MACE_meV_atom": 1.95,
+      "epsilon_cu_DFT_meV_atom": 35.0,
+      "penalty_mJ_m2": 198.2,
+      "gamma_isf_corrected_mJ_m2": 168.3
+    },
+    "MACE-MP-0 large": {
+      "nn_A": 2.556,
+      "area_A2": 5.66,
+      "gamma_isf_raw_mJ_m2": -50.5,
+      "epsilon_cu_MACE_meV_atom": 3.19,
+      "epsilon_cu_DFT_meV_atom": 35.0,
+      "penalty_mJ_m2": 198.2,
+      "gamma_isf_corrected_mJ_m2": 147.7
+    }
+  },
+  "cu_isf_dft": {
+    "range": [
+      40,
+      45
+    ],
+    "note": "Cu ISF ~40-45 mJ/m2 (literature)"
+  },
+  "al_thickness": {
+    "MACE-MP-0 small_8layer": {
+      "nlayers": 8,
+      "gamma_layermoval_raw": -4.3,
+      "gamma_rigiddrift_raw": 0.0,
+      "area_A2": 7.1
+    },
+    "MACE-MP-0 medium_8layer": {
+      "nlayers": 8,
+      "gamma_layermoval_raw": 1.0,
+      "gamma_rigiddrift_raw": 0.0,
+      "area_A2": 7.1
+    },
+    "MACE-MP-0 large_8layer": {
+      "nlayers": 8,
+      "gamma_layermoval_raw": -1.4,
+      "gamma_rigiddrift_raw": -0.0,
+      "area_A2": 7.1
+    },
+    "MACE-MP-0 small_12layer": {
+      "nlayers": 12,
+      "gamma_layermoval_raw": -3.9,
+      "gamma_rigiddrift_raw": 483.6,
+      "area_A2": 7.1
+    },
+    "MACE-MP-0 medium_12layer": {
+      "nlayers": 12,
+      "gamma_layermoval_raw": 0.8,
+      "gamma_rigiddrift_raw": 512.3,
+      "area_A2": 7.1
+    },
+    "MACE-MP-0 large_12layer": {
+      "nlayers": 12,
+      "gamma_layermoval_raw": -1.2,
+      "gamma_rigiddrift_raw": 436.8,
+      "area_A2": 7.1
+    }
+  },
+  "al_dft_isf_mJ_m2": [
+    161,
+    166
+  ],
+  "note": "Cu 体系用自身 ε_Cu 修正，检验 2ε/A 是否 Al 特例"
+}

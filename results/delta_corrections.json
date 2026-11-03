@@ -1,0 +1,63 @@
+{
+  "method": "anchor-based per-phase constant delta (单点锚定版，非训练式 δ-learning)",
+  "models": [
+    "MACE-MP-0 small",
+    "MACE-MP-0 medium",
+    "MACE-MP-0 large"
+  ],
+  "delta_eV_per_atom": {
+    "Al3Sc_L12": {
+      "MACE-MP-0 small": 0.02788113592642777,
+      "MACE-MP-0 medium": 0.006160856987623975,
+      "MACE-MP-0 large": 0.012194739732509563
+    },
+    "Al3Zr_L12": {
+      "MACE-MP-0 small": 0.03276467768144897,
+      "MACE-MP-0 medium": 0.001369762760791815,
+      "MACE-MP-0 large": 0.008594411521774425
+    },
+    "Al2Cu_theta": {
+      "MACE-MP-0 small": -0.09480722363844193,
+      "MACE-MP-0 medium": -0.10916119628203352,
+      "MACE-MP-0 large": -0.11560477214491471
+    },
+    "Mg2Si": {
+      "MACE-MP-0 small": -0.07373245468341243,
+      "MACE-MP-0 medium": -0.09420678297726154,
+      "MACE-MP-0 large": -0.09356959281680594
+    }
+  },
+  "mean_delta_eV_per_atom": {
+    "Al3Sc_L12": 0.015412244215520435,
+    "Al3Zr_L12": 0.014242950654671738,
+    "Al2Cu_theta": -0.10652439735513004,
+    "Mg2Si": -0.08716961015915997
+  },
+  "corrected_formation_eV_per_atom": {
+    "Al3Sc_L12": {
+      "MACE-MP-0 small": -0.443,
+      "MACE-MP-0 medium": -0.443,
+      "MACE-MP-0 large": -0.443
+    },
+    "Al3Zr_L12": {
+      "MACE-MP-0 small": -0.532,
+      "MACE-MP-0 medium": -0.532,
+      "MACE-MP-0 large": -0.532
+    },
+    "Al2Cu_theta": {
+      "MACE-MP-0 small": -0.166,
+      "MACE-MP-0 medium": -0.166,
+      "MACE-MP-0 large": -0.166
+    },
+    "Mg2Si": {
+      "MACE-MP-0 small": -0.155,
+      "MACE-MP-0 medium": -0.155,
+      "MACE-MP-0 large": -0.155
+    }
+  },
+  "unanchored_phases": [
+    "Al3ScZr_L12",
+    "Al2Cu_theta_prime"
+  ],
+  "notes": "未锚定相（Al3ScZr_L12、Al2Cu_theta_prime）不做常数修正，需 DFT 锚点后校准。"
+}

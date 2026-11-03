@@ -1,0 +1,71 @@
+{
+  "phase": "2C 域外区修正路径（缺陷能量学 δ 延伸）",
+  "method": [
+    "ISF: 堆垛序罚项 2ε/A, ε=31.5 meV/atom (DFT 体相多形体锚点, 未拟合 ISF); 层错局部 1 个 hcp 型近邻层对 → 2 原子受罚",
+    "USF: 不施加能量修正——单点值已≈DFT, 病理在位置弛豫坍缩; 量化 Δγ = γ(单点)-γ(弛豫)",
+    "界面: 共格界面无 hcp 层对, 堆垛罚项不适用; 单锚点常数移位 (与 Phase 1b δ 同型, 诚实标注不可迁移, 需 DFT 训练集)"
+  ],
+  "anchors": {
+    "ISF_DFT_mJ_m2": [
+      161.0,
+      166.0
+    ],
+    "USF_DFT_mJ_m2": 224.0,
+    "interface_DFT_mJ_m2": 192.0,
+    "epsilon_hcp_minus_fcc_DFT_meV_atom": 31.5
+  },
+  "area_A2": 7.1,
+  "rows": [
+    {
+      "model": "MACE-MP-0 small",
+      "dE_hcp_minus_fcc_meV_atom_MACE": -1.6979049263663448,
+      "epsilon_DFT_meV_atom": 31.5,
+      "stacking_penalty_mJ_m2": 142.2,
+      "isf_layer_removal_MACE": -7.3,
+      "isf_layer_removal_corrected": 134.9,
+      "isf_layer_removal_err_vs_anchor": -28.6,
+      "isf_rigid_shift_MACE": 483.6,
+      "isf_rigid_shift_corrected": 625.8,
+      "usf_single_point": 225.6,
+      "usf_relaxed": 62.3,
+      "usf_relaxation_collapse_mJ_m2": 163.3,
+      "interface_MACE": 99.0,
+      "interface_constant_shift_delta_mJ_m2": 93.0,
+      "interface_corrected": 192.0
+    },
+    {
+      "model": "MACE-MP-0 medium",
+      "dE_hcp_minus_fcc_meV_atom_MACE": 0.3893933713516873,
+      "epsilon_DFT_meV_atom": 31.5,
+      "stacking_penalty_mJ_m2": 142.2,
+      "isf_layer_removal_MACE": 6.6,
+      "isf_layer_removal_corrected": 148.7,
+      "isf_layer_removal_err_vs_anchor": -14.8,
+      "isf_rigid_shift_MACE": 512.3,
+      "isf_rigid_shift_corrected": 654.4,
+      "usf_single_point": 243.8,
+      "usf_relaxed": 69.0,
+      "usf_relaxation_collapse_mJ_m2": 174.7,
+      "interface_MACE": 75.6,
+      "interface_constant_shift_delta_mJ_m2": 116.4,
+      "interface_corrected": 192.0
+    },
+    {
+      "model": "MACE-MP-0 large",
+      "dE_hcp_minus_fcc_meV_atom_MACE": -0.5474369489655295,
+      "epsilon_DFT_meV_atom": 31.5,
+      "stacking_penalty_mJ_m2": 142.2,
+      "isf_layer_removal_MACE": 9.3,
+      "isf_layer_removal_corrected": 151.5,
+      "isf_layer_removal_err_vs_anchor": -12.0,
+      "isf_rigid_shift_MACE": 436.8,
+      "isf_rigid_shift_corrected": 578.9,
+      "usf_single_point": 185.3,
+      "usf_relaxed": 47.1,
+      "usf_relaxation_collapse_mJ_m2": 138.2,
+      "interface_MACE": -10.5,
+      "interface_constant_shift_delta_mJ_m2": 202.5,
+      "interface_corrected": 192.0
+    }
+  ]
+}

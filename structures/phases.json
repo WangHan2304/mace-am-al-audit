@@ -1,0 +1,206 @@
+{
+  "Al_fcc": {
+    "name": "Al_fcc",
+    "formula": "Al4",
+    "natoms": 4,
+    "composition": {
+      "Al": 4
+    },
+    "lattice": "fcc a=4.0500 A",
+    "cif": "structures\\Al_fcc.cif"
+  },
+  "Cu_fcc": {
+    "name": "Cu_fcc",
+    "formula": "Cu4",
+    "natoms": 4,
+    "composition": {
+      "Cu": 4
+    },
+    "lattice": "fcc a=3.6150 A",
+    "cif": "structures\\Cu_fcc.cif"
+  },
+  "Si_dia": {
+    "name": "Si_dia",
+    "formula": "Si8",
+    "natoms": 8,
+    "composition": {
+      "Si": 8
+    },
+    "lattice": "diamond a=5.4310 A",
+    "cif": "structures\\Si_dia.cif"
+  },
+  "Mg_hcp": {
+    "name": "Mg_hcp",
+    "formula": "Mg2",
+    "natoms": 2,
+    "composition": {
+      "Mg": 2
+    },
+    "lattice": "hcp a=3.2090 c=5.2100 A",
+    "cif": "structures\\Mg_hcp.cif"
+  },
+  "Sc_hcp": {
+    "name": "Sc_hcp",
+    "formula": "Sc2",
+    "natoms": 2,
+    "composition": {
+      "Sc": 2
+    },
+    "lattice": "hcp a=3.3090 c=5.2730 A",
+    "cif": "structures\\Sc_hcp.cif"
+  },
+  "Zr_hcp": {
+    "name": "Zr_hcp",
+    "formula": "Zr2",
+    "natoms": 2,
+    "composition": {
+      "Zr": 2
+    },
+    "lattice": "hcp a=3.2320 c=5.1470 A",
+    "cif": "structures\\Zr_hcp.cif"
+  },
+  "Al3Sc_L12": {
+    "name": "Al3Sc_L12",
+    "formula": "Al3Sc",
+    "natoms": 4,
+    "composition": {
+      "Sc": 1,
+      "Al": 3
+    },
+    "lattice": "L12 a=4.1030 A",
+    "cif": "structures\\Al3Sc_L12.cif"
+  },
+  "Al3Zr_L12": {
+    "name": "Al3Zr_L12",
+    "formula": "Al3Zr",
+    "natoms": 4,
+    "composition": {
+      "Zr": 1,
+      "Al": 3
+    },
+    "lattice": "L12 a=4.0800 A",
+    "cif": "structures\\Al3Zr_L12.cif"
+  },
+  "Al3ScZr_L12": {
+    "name": "Al3ScZr_L12",
+    "formula": "Al6ScZr",
+    "natoms": 8,
+    "composition": {
+      "Zr": 1,
+      "Al": 6,
+      "Sc": 1
+    },
+    "lattice": "L12(2x1x1) a=4.1000 A, corners=['Sc', 'Zr']",
+    "cif": "structures\\Al3ScZr_L12.cif"
+  },
+  "Al2Cu_theta": {
+    "name": "Al2Cu_theta",
+    "formula": "Al8Cu4",
+    "natoms": 12,
+    "composition": {
+      "Cu": 4,
+      "Al": 8
+    },
+    "lattice": "C16(I4/mcm) a=6.0660 c=4.8770 x(Al)=0.1581",
+    "cif": "structures\\Al2Cu_theta.cif"
+  },
+  "Al2Cu_theta_prime": {
+    "name": "Al2Cu_theta_prime",
+    "formula": "Al4Cu2",
+    "natoms": 6,
+    "composition": {
+      "Cu": 2,
+      "Al": 4
+    },
+    "lattice": "I4/mmm a=4.0400 c=5.8000 (Al 4d, Cu 2a)",
+    "cif": "structures\\Al2Cu_theta_prime.cif"
+  },
+  "Mg2Si": {
+    "name": "Mg2Si",
+    "formula": "Mg8Si4",
+    "natoms": 12,
+    "composition": {
+      "Si": 4,
+      "Mg": 8
+    },
+    "lattice": "anti-fluorite a=6.3510 A",
+    "cif": "structures\\Mg2Si.cif"
+  },
+  "Al32_sc": {
+    "name": "Al32_sc",
+    "formula": "Al32",
+    "natoms": 32,
+    "composition": {
+      "Al": 32
+    },
+    "lattice": "fcc 2x2x2 supercell (reference)",
+    "cif": "structures\\Al32_sc.cif"
+  },
+  "Al31Mg": {
+    "name": "Al31Mg",
+    "formula": "Al31Mg",
+    "natoms": 32,
+    "composition": {
+      "Mg": 1,
+      "Al": 31
+    },
+    "lattice": "fcc 2x2x2 supercell, 1 solute Mg (dilute)",
+    "cif": "structures\\Al31Mg.cif"
+  },
+  "Al31Si": {
+    "name": "Al31Si",
+    "formula": "Al31Si",
+    "natoms": 32,
+    "composition": {
+      "Si": 1,
+      "Al": 31
+    },
+    "lattice": "fcc 2x2x2 supercell, 1 solute Si (dilute)",
+    "cif": "structures\\Al31Si.cif"
+  },
+  "Al31Cu": {
+    "name": "Al31Cu",
+    "formula": "Al31Cu",
+    "natoms": 32,
+    "composition": {
+      "Cu": 1,
+      "Al": 31
+    },
+    "lattice": "fcc 2x2x2 supercell, 1 solute Cu (dilute)",
+    "cif": "structures\\Al31Cu.cif"
+  },
+  "Al31Sc": {
+    "name": "Al31Sc",
+    "formula": "Al31Sc",
+    "natoms": 32,
+    "composition": {
+      "Sc": 1,
+      "Al": 31
+    },
+    "lattice": "fcc 2x2x2 supercell, 1 solute Sc (dilute)",
+    "cif": "structures\\Al31Sc.cif"
+  },
+  "Al31Zr": {
+    "name": "Al31Zr",
+    "formula": "Al31Zr",
+    "natoms": 32,
+    "composition": {
+      "Zr": 1,
+      "Al": 31
+    },
+    "lattice": "fcc 2x2x2 supercell, 1 solute Zr (dilute)",
+    "cif": "structures\\Al31Zr.cif"
+  },
+  "Al30ScZr": {
+    "name": "Al30ScZr",
+    "formula": "Al30ScZr",
+    "natoms": 32,
+    "composition": {
+      "Sc": 1,
+      "Al": 30,
+      "Zr": 1
+    },
+    "lattice": "fcc 2x2x2 supercell, co-doped Sc+Zr (dilute)",
+    "cif": "structures\\Al30ScZr.cif"
+  }
+}

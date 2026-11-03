@@ -1,0 +1,29 @@
+import numpy as np
+from ase.build import fcc111
+from gpaw import GPAW
+import json
+
+a_bulk = 4.04
+slab_perfect = fcc111('Al', size=(1,1,6), a=a_bulk, vacuum=10.0)
+slab_faulted = fcc111('Al', size=(1,1,6), a=a_bulk, vacuum=10.0)
+top_mask = slab_faulted.positions[:,2] > np.median(slab_faulted.positions[:,2])
+slab_faulted.positions[top_mask] += [a_bulk/np.sqrt(3)/3, a_bulk/np.sqrt(3)/3, 0]
+
+print(f'Perfect: {len(slab_perfect)} atoms')
+calc = GPAW(mode='lcao', xc='PBE', basis='dzp', kpts=(8,8,1), txt='perfect_lcao.txt')
+slab_perfect.calc = calc
+E_perfect = slab_perfect.get_potential_energy()
+print(f'E_perfect = {E_perfect:.4f} eV')
+
+calc2 = GPAW(mode='lcao', xc='PBE', basis='dzp', kpts=(8,8,1), txt='faulted_lcao.txt')
+slab_faulted.calc = calc2
+E_faulted = slab_faulted.get_potential_energy()
+print(f'E_faulted = {E_faulted:.4f} eV')
+
+area = slab_perfect.cell[0,0] * slab_perfect.cell[1,1] * np.sin(np.pi/3)
+isf = (E_faulted - E_perfect) / (2 * area) * 16021.8
+print(f'ISF = {isf:.1f} mJ/m2, area = {area:.3f} A2')
+
+with open('al_isf_result.json','w') as f:
+    json.dump({'E_perfect': E_perfect, 'E_faulted': E_faulted, 'area': area, 'ISF_mJm2': isf}, f, indent=2)
+print('Done.')
