@@ -20,8 +20,9 @@ slab_faulted.calc = calc2
 E_faulted = slab_faulted.get_potential_energy()
 print(f'E_faulted = {E_faulted:.4f} eV')
 
-area = slab_perfect.cell[0,0] * slab_perfect.cell[1,1] * np.sin(np.pi/3)
-isf = (E_faulted - E_perfect) / (2 * area) * 16021.8
+area = np.linalg.norm(slab_perfect.cell[0]) * np.linalg.norm(slab_perfect.cell[1]) * np.sin(np.pi/3)
+# gamma = dE/A: one fault plane of in-plane area A
+isf = (E_faulted - E_perfect) / area * 16021.8
 print(f'ISF = {isf:.1f} mJ/m2, area = {area:.3f} A2')
 
 with open('cu_isf_result.json','w') as f:
