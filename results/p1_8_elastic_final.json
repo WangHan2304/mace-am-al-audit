@@ -1,0 +1,50 @@
+{
+  "protocol": {
+    "d": 0.01,
+    "dtype": "float64",
+    "device": "cpu",
+    "deformation": "affine, scale_atoms=True",
+    "orientation": "tetragonal C11-C12, biaxial C11+C12, pure shear C44"
+  },
+  "experimental": {
+    "C11": 108.0,
+    "C12": 62.0,
+    "C44": 28.0,
+    "B": 76.0
+  },
+  "models": {
+    "small": {
+      "a0": 4.055,
+      "C11_GPa": 103.1,
+      "C12_GPa": 67.1,
+      "C44_GPa": 21.6,
+      "B_GPa": 79.1,
+      "B_iso_GPa": 79.1,
+      "C11_stress_GPa": -103.0,
+      "C44_stress_GPa": -21.6,
+      "dev_C11_vs_exp_pct": -4.6
+    },
+    "medium": {
+      "a0": 4.0622,
+      "C11_GPa": 84.9,
+      "C12_GPa": 52.6,
+      "C44_GPa": 25.3,
+      "B_GPa": 63.4,
+      "B_iso_GPa": 63.4,
+      "C11_stress_GPa": -84.8,
+      "C44_stress_GPa": -25.3,
+      "dev_C11_vs_exp_pct": -21.4
+    },
+    "large": {
+      "a0": 4.0354,
+      "C11_GPa": 75.4,
+      "C12_GPa": 53.0,
+      "C44_GPa": 16.3,
+      "B_GPa": 60.4,
+      "B_iso_GPa": 60.6,
+      "C11_stress_GPa": -75.6,
+      "C44_stress_GPa": -16.3,
+      "dev_C11_vs_exp_pct": -30.2
+    }
+  }
+}

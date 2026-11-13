@@ -1,0 +1,15 @@
+[
+  {
+    "model": "CHGNet",
+    "anchor_USF_DFT_mJ_m2": 224.0,
+    "construction": "12 layers (111) 1x1, upper block shifted by half a Shockley partial, double-equivalent fault /2A, BFGS fmax 0.05, fixed cell, CPU",
+    "gamma_none_mJ_m2": 103.6500015258789,
+    "gamma_zonly_mJ_m2": 68.25,
+    "zonly_steps": 5,
+    "slide_xy_zonly_A": 0.0,
+    "gamma_full_mJ_m2": 37.25,
+    "full_steps": 7,
+    "slide_xy_full_A": 0.0218,
+    "slide_expected_T_half_A": 0.8267
+  }
+]

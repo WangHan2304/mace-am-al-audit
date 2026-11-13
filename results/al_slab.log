@@ -1,0 +1,11 @@
+# Al: a0 = 4.0442 A, layers [8, 10, 12]
+/home/cl/miniconda3/lib/python3.14/site-packages/gpaw/new/pw/builder.py:44: UserWarning: Using OMP_NUM_THREADS>1 in PW-mode is not useful!
+  warnings.warn(
+{"metal": "Al", "nlayers": 8, "natoms": 8, "ecut": 400, "kpts": [8, 8, 1], "symmetry": "point_group off", "a_bulk": 4.044248886780696, "slip_A": 1.6510576942386002, "area": 7.082333693714329, "E_perfect": {"E_0K": -29.200131578923475, "E_free": -29.25314663136738, "steps": 3}, "E_faulted": {"E_0K": -29.14934210125519, "E_free": -29.202991625779816, "steps": 5}, "dE_0K": 0.05078947766828534, "dE_free": 0.050155005587562584, "ISF_mJm2": 114.89699419669236, "ISF_free_mJm2": 113.46167849108734, "seconds": 475.7030773162842}
+{"metal": "Al", "nlayers": 10, "natoms": 10, "ecut": 400, "kpts": [8, 8, 1], "symmetry": "point_group off", "a_bulk": 4.044248886780696, "slip_A": 1.6510576942386002, "area": 7.082333693714329, "E_perfect": {"E_0K": -36.68277435798474, "E_free": -36.74631852056249, "steps": 1}, "E_faulted": {"E_0K": -36.620638670645725, "E_free": -36.68878292378855, "steps": 5}, "dE_0K": 0.06213568733901553, "dE_free": 0.05753559677393838, "ISF_mJm2": 140.56462155853825, "ISF_free_mJm2": 130.1582026854817, "seconds": 582.2288002967834}
+{"metal": "Al", "nlayers": 12, "natoms": 12, "ecut": 400, "kpts": [8, 8, 1], "symmetry": "point_group off", "a_bulk": 4.044248886780696, "slip_A": 1.6510576942386002, "area": 7.082333693714329, "E_perfect": {"E_0K": -44.16666735118153, "E_free": -44.240986718780725, "steps": 4}, "E_faulted": {"E_0K": -44.094894062110114, "E_free": -44.17576657750968, "steps": 4}, "dE_0K": 0.071773289071416, "dE_free": 0.06522014127104825, "ISF_mJm2": 162.36700112916148, "ISF_free_mJm2": 147.54233627030075, "seconds": 2088.4359378814697}
+--- SUMMARY (0 K convention) ---
+Al 8 layers: ISF = 114.9 mJ/m2 (dE = 50.79 meV, free-energy conv 113.5, 476 s)
+Al 10 layers: ISF = 140.6 mJ/m2 (dE = 62.14 meV, free-energy conv 130.2, 582 s)
+Al 12 layers: ISF = 162.4 mJ/m2 (dE = 71.77 meV, free-energy conv 147.5, 2088 s)
+AL_SLAB_DONE

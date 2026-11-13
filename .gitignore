@@ -8,3 +8,4 @@ __pycache__/
 *.bbl
 *.blg
 .DS_Store
+!results/*.log

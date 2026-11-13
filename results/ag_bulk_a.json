@@ -1,0 +1,15 @@
+{
+  "metal": "Ag",
+  "note": "three-point quadratic fit from the widened scan; the 400 eV four-point scan was rejected because its minimum fell outside the sampled window, and an ecut 500 spot check showed the equilibrium is not a cutoff artefact",
+  "points": [
+    [4.10, -2.823476],
+    [4.18, -2.826869],
+    [4.26, -2.799731]
+  ],
+  "a0": 4.1489,
+  "ecut": 400,
+  "kpts": [12, 12, 12],
+  "xc": "PBE",
+  "deviation_vs_experimental_pct": 1.7,
+  "experimental_a0": 4.085
+}

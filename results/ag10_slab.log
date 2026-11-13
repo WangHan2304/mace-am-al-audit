@@ -1,0 +1,6 @@
+# Ag: a0 = 4.1489 A, layers [10]
+/home/cl/miniconda3/lib/python3.14/site-packages/gpaw/new/pw/builder.py:44: UserWarning: Using OMP_NUM_THREADS>1 in PW-mode is not useful!
+  warnings.warn(
+{"metal": "Ag", "nlayers": 10, "natoms": 10, "ecut": 400, "kpts": [8, 8, 1], "symmetry": "point_group off", "a_bulk": 4.1489, "slip_A": 1.6937813323055213, "area": 7.453608376315841, "E_perfect": {"E_0K": -27.63353451912965, "E_free": -27.677492335807415, "steps": 1}, "E_faulted": {"E_0K": -27.625464058353025, "E_free": -27.669634299099762, "steps": 1}, "dE_0K": 0.008070460776625765, "dE_free": 0.007858036707652616, "ISF_mJm2": 17.347746479652656, "ISF_free_mJm2": 16.89113328287021, "seconds": 2158.008204460144}
+--- SUMMARY (0 K convention) ---
+Ag 10 layers: ISF = 17.3 mJ/m2 (dE = 8.07 meV, free-energy conv 16.9, 2158 s)

@@ -1,0 +1,6 @@
+# Ni: a0 = 3.5292 A, layers [8]
+/home/cl/miniconda3/lib/python3.14/site-packages/gpaw/new/pw/builder.py:44: UserWarning: Using OMP_NUM_THREADS>1 in PW-mode is not useful!
+  warnings.warn(
+{"metal": "Ni", "nlayers": 8, "natoms": 8, "ecut": 400, "kpts": [8, 8, 1], "symmetry": "point_group off", "a_bulk": 3.529246253227443, "slip_A": 1.4408087495060975, "area": 5.393423966616797, "E_perfect": {"E_0K": -56.67428570334585, "E_free": -56.89417956214285, "steps": 11}, "E_faulted": {"E_0K": -56.61645562078217, "E_free": -56.84350375162587, "steps": 8}, "dE_0K": 0.05783008256368305, "dE_free": 0.05067581051698511, "ISF_mJm2": 171.7910593629859, "ISF_free_mJm2": 150.53845311744223, "seconds": 9428.95486330986}
+--- SUMMARY (0 K convention) ---
+Ni 8 layers: ISF = 171.8 mJ/m2 (dE = 57.83 meV, free-energy conv 150.5, 9429 s)

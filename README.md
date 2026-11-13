@@ -32,9 +32,24 @@ Key result: MACE-MP-0 has systematic stacking-order blindness (hcp/fcc near-dege
 
 ```bash
 pip install mace-torch ase pymatgen
-python scripts/01_audit_bulk.py
-python scripts/22_boundary_plot.py
+python scripts/01_build_structures.py
+python scripts/02_run_audit.py
+python scripts/fig_boundary_regen.py   # regenerates the two-dimensional boundary map
 ```
+
+## Local DFT anchors
+
+The five-metal transferability boundary does not rely on literature stacking-fault energies: Cu, Au, Al, Ag and Ni (111) intrinsic stacking faults are recomputed here with GPAW plane waves (400 eV, 8x8x1 k-points, point-group symmetry off, bottom two layers fixed, FIRE to fmax 0.05 eV/A).
+
+| Metal | a0 (A) | Layers | ISF_DFT (mJ/m2) | R | C/DFT |
+|---|---|---|---|---|---|
+| Al | 4.0442 | 12 | 162.4 | 0.88 | 0.92 |
+| Cu | 3.6150 | 10 | 32.8 | 1.28 | 1.45 |
+| Ni | 3.5292 | 12 | 165.7 | 3.36 | 3.40 |
+| Ag | 4.1489 | 10 | 17.3 | ≈0 | 0.33 |
+| Au | 4.1761 | 12 | 31.0 | 1.23 | 1.90 |
+
+Ni is the only magnetic metal and is treated spin-polarized; its thickness series (171.8, 160.3, 165.7 mJ/m2 at 8, 10, 12 layers) is not monotonic, and the 12-layer value is adopted with the non-monotonicity recorded rather than averaged. Raw slab outputs are in `results/*_slab.log`. Elastic constants are cross-checked by `scripts/26_elastic_final.py`, and the USF collapse mechanism by `scripts/27_chgnet_usf.py`.
 
 ## Citation
 
